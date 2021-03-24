@@ -1,0 +1,32 @@
+.card-container {
+    border: 1px solid black;
+    width: 400px;
+    padding: 10px;
+
+    .card-content {
+        display: flex;
+
+        .text-input {
+            border: 2px solid #dadada;
+            box-sizing: border-box;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .text-input:focus {
+            outline: none;
+            border-color: #9ecaed;
+            box-shadow: 0 0 10px #9ecaed;
+        }
+
+        .mostrar-button {
+            border: 0;
+            background-color: blue;
+            color: white;
+            margin-left: 2px;
+            border-radius: 8px;
+            padding: 15px;
+        }
+    }
+
+}
